@@ -1,6 +1,6 @@
 # Kerim
 
-Systems and security engineer working across Windows internals, reverse engineering,
+Systems and security engineer focused on Windows internals, reverse engineering,
 defensive tooling, and applied AI.
 
 <p>
@@ -10,36 +10,28 @@ defensive tooling, and applied AI.
   <img src="https://img.shields.io/badge/Applied%20AI-7C3AED?style=flat-square" alt="Applied AI">
 </p>
 
-I build tools that make complex systems easier to inspect, measure, and explain. My
-work ranges from low-level Windows research and protocol analysis to developer tools,
-data pipelines, and interactive web applications. I care about reproducible results,
-clear threat models, and software that is useful beyond the original experiment.
-
-## Focus
-
-- **Systems engineering** — Windows internals, kernel/user boundaries, memory topology,
-  virtualization, and native C/C++ development.
-- **Security research** — binary and protocol analysis, defensive driver research,
-  reverse-engineering workflows, and safe research tooling.
-- **Applied AI** — AI-assisted developer and productivity tools, evaluation pipelines,
-  and structured data analysis.
+I like projects that answer a concrete systems question. That usually means building
+the smallest useful tool, measuring its behavior, and documenting where the result
+stops being trustworthy. Most of my work sits close to Windows, native code, security
+research, or the boundary between an AI model and the software it is allowed to use.
 
 ## Selected work
 
-- [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant) — an
-  AI-assisted Excel add-in built with TypeScript, React, Office.js, and Claude.
-- [**Anidakapo Studio**](https://github.com/ntkrnlmp/anidakapo-studio) — an interactive
-  3D web experience using Next.js, React Three Fiber, Three.js, and GSAP.
+- [**fptrace**](https://github.com/ntkrnlmp/fptrace): an experimental AMD SVM
+  control-flow tracer with a C++ API, CLI, and offline trace decoder.
+- [**healcore-overlay**](https://github.com/ntkrnlmp/healcore-overlay): a measured
+  D3D11 and DirectComposition overlay library built around a low-latency render path.
+- [**virusshare**](https://github.com/ntkrnlmp/virusshare): a typed Python SDK and CLI
+  for controlled VirusShare research workflows.
+- [**mapped_explorer**](https://github.com/ntkrnlmp/mapped_explorer): a source-only
+  Windows kernel memory-forensics prototype for studying loaded and manually mapped
+  images.
+- [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant): a
+  capability-based Office add-in that keeps workbook mutations explicit and confirmed.
+- [**Anidakapo Studio**](https://github.com/ntkrnlmp/anidakapo-studio): an interactive
+  3D web experience built with Next.js, React Three Fiber, Three.js, and GSAP.
 
-## Currently building
-
-I am turning several research workspaces into focused, reproducible open-source tools:
-
-- read-only Windows memory-topology analysis;
-- static capability analysis for Windows drivers;
-- versioned threat-intelligence datasets and snapshot comparisons.
-
-## Toolbox
+## What I work with
 
 <p>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C">
@@ -48,9 +40,9 @@ I am turning several research workspaces into focused, reproducible open-source 
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
 </p>
 
-Windows SDK/WDK · WinDbg · Ghidra
+Windows SDK and WDK, WinDbg, Ghidra, CMake, Office.js, and the usual collection of
+small scripts that make repeatable work possible.
 
 Based in Bosnia and Herzegovina.
