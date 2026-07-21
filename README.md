@@ -1,7 +1,6 @@
 # Kerim
 
-Systems and security engineer focused on Windows internals, reverse engineering,
-defensive tooling, and applied AI.
+Systems and security engineer working on Windows internals, reverse engineering, defensive tooling, and applied AI.
 
 <p>
   <img src="https://img.shields.io/badge/Windows%20Internals-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows Internals">
@@ -10,28 +9,20 @@ defensive tooling, and applied AI.
   <img src="https://img.shields.io/badge/Applied%20AI-7C3AED?style=flat-square" alt="Applied AI">
 </p>
 
-I like projects that answer a concrete systems question. That usually means building
-the smallest useful tool, measuring its behavior, and documenting where the result
-stops being trustworthy. Most of my work sits close to Windows, native code, security
-research, or the boundary between an AI model and the software it is allowed to use.
+I build focused tools around concrete systems questions, then document how they work, how to reproduce the result, and where interpretation requires care.
 
 ## Selected work
 
-- [**SvmTrace**](https://github.com/ntkrnlmp/svmtrace): an experimental AMD SVM
-  control-flow tracer with a C++ API, CLI, and offline trace decoder.
-- [**DComp Overlay**](https://github.com/ntkrnlmp/dcomp-overlay): a measured
-  D3D11 and DirectComposition overlay library built around a low-latency render path.
-- [**virusshare**](https://github.com/ntkrnlmp/virusshare): a typed Python SDK and CLI
-  for controlled VirusShare research workflows.
-- [**mapped_explorer**](https://github.com/ntkrnlmp/mapped_explorer): a source-only
-  Windows kernel memory-forensics prototype for studying loaded and manually mapped
-  images.
-- [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant): a
-  capability-based Office add-in that keeps workbook mutations explicit and confirmed.
-- [**Anidakapo Studio**](https://github.com/ntkrnlmp/anidakapo-studio): an interactive
-  3D web experience built with Next.js, React Three Fiber, Three.js, and GSAP.
+| Project | Focus |
+|---|---|
+| [**SvmTrace**](https://github.com/ntkrnlmp/svmtrace) | An unusual AMD SVM tracer that observes execution instruction by instruction, with a C++ API, CLI, and defensive offline decoder |
+| [**DComp Overlay**](https://github.com/ntkrnlmp/dcomp-overlay) | A measured DirectComposition overlay delivered as a conventional Windows DLL and demo host |
+| [**VirusShare SDK**](https://github.com/ntkrnlmp/virusshare) | A typed Python SDK and CLI for bounded, authorized malware-research workflows |
+| [**mapped_explorer**](https://github.com/ntkrnlmp/mapped_explorer) | A source-only Windows kernel prototype for investigating code outside loaded-module ranges |
+| [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant) | A capability-based Office add-in that makes workbook mutations explicit and confirmed |
+| [**Anidakapo Studio**](https://github.com/ntkrnlmp/anidakapo-studio) | An interactive 3D web experience using Next.js, React Three Fiber, Three.js, and GSAP |
 
-## What I work with
+## Toolkit
 
 <p>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C">
@@ -42,7 +33,6 @@ research, or the boundary between an AI model and the software it is allowed to 
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
 </p>
 
-Windows SDK and WDK, WinDbg, Ghidra, CMake, Office.js, and the usual collection of
-small scripts that make repeatable work possible.
+Windows SDK and WDK, WinDbg, Ghidra, CMake, Office.js, and small scripts that make systems work repeatable.
 
 Based in Bosnia and Herzegovina.
