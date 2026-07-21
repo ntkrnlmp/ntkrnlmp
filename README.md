@@ -17,9 +17,9 @@ research, or the boundary between an AI model and the software it is allowed to 
 
 ## Selected work
 
-- [**fptrace**](https://github.com/ntkrnlmp/fptrace): an experimental AMD SVM
+- [**SvmTrace**](https://github.com/ntkrnlmp/svmtrace): an experimental AMD SVM
   control-flow tracer with a C++ API, CLI, and offline trace decoder.
-- [**healcore-overlay**](https://github.com/ntkrnlmp/healcore-overlay): a measured
+- [**DComp Overlay**](https://github.com/ntkrnlmp/dcomp-overlay): a measured
   D3D11 and DirectComposition overlay library built around a low-latency render path.
 - [**virusshare**](https://github.com/ntkrnlmp/virusshare): a typed Python SDK and CLI
   for controlled VirusShare research workflows.
