@@ -47,7 +47,7 @@ flowchart LR
 | [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant) | Office.js add-in where model actions pass through a named capability policy and confirmed workbook writes |
 | [**Anidakapo Studio**](https://github.com/ntkrnlmp/anidakapo-studio) | Interactive 3D web experience built with Next.js, React Three Fiber, Three.js, and GSAP |
 
-## Toolchain
+## Skills and tools
 
 <p>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C">
@@ -56,8 +56,12 @@ flowchart LR
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Data%20Analysis-2563EB?style=flat-square&logo=pandas&logoColor=white" alt="Data Analysis">
+  <img src="https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/IDA%20Pro-111827?style=flat-square" alt="IDA Pro">
+  <img src="https://img.shields.io/badge/x64dbg-DC2626?style=flat-square" alt="x64dbg">
 </p>
 
-Windows SDK and WDK · WinDbg · Ghidra · CMake · Office.js · Direct3D 11
+Windows SDK and WDK · WinDbg · Ghidra · IDA Pro · x64dbg · CMake · Office.js · Direct3D 11
 
 Based in Bosnia and Herzegovina.
