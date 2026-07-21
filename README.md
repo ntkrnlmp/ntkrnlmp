@@ -62,6 +62,4 @@ flowchart LR
   <img src="https://img.shields.io/badge/x64dbg-DC2626?style=flat-square" alt="x64dbg">
 </p>
 
-Windows SDK and WDK · WinDbg · Ghidra · IDA Pro · x64dbg · CMake · Office.js · Direct3D 11
-
 Based in Bosnia and Herzegovina.
