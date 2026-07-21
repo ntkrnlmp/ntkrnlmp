@@ -16,7 +16,7 @@ I build focused tools around concrete systems questions, then document how they 
 | Project | Focus |
 |---|---|
 | [**SvmTrace**](https://github.com/ntkrnlmp/svmtrace) | An unusual AMD SVM tracer that observes execution instruction by instruction, with a C++ API, CLI, and defensive offline decoder |
-| [**DComp Overlay**](https://github.com/ntkrnlmp/dcomp-overlay) | A measured DirectComposition overlay delivered as a conventional Windows DLL and demo host |
+| [**DComp Overlay**](https://github.com/ntkrnlmp/dcomp-overlay) | A measured DirectComposition DLL designed to be manually mapped into `explorer.exe` |
 | [**VirusShare SDK**](https://github.com/ntkrnlmp/virusshare) | A typed Python SDK and CLI for bounded, authorized malware-research workflows |
 | [**mapped_explorer**](https://github.com/ntkrnlmp/mapped_explorer) | A source-only Windows kernel prototype for investigating code outside loaded-module ranges |
 | [**Excel AI Assistant**](https://github.com/ntkrnlmp/excel-ai-assistant) | A capability-based Office add-in that makes workbook mutations explicit and confirmed |
